@@ -1,0 +1,67 @@
+body{
+    background-image: url('musical.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#body_div{
+    background-color: rgba(255, 212, 159, 0.744);
+    border-radius: 25px;
+    height: 925px;
+    width: 93%;
+    margin-left: 3.5%;
+    margin-right: 3.5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 30px;
+    padding-bottom: 25px;
+}
+
+#heading{
+    font-family: 'Kalnia', serif;
+    font-size: 60px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: #000;
+}
+
+#note_1, #note_2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    padding-left: 15%;
+    padding-right: 5%;
+    width: 1250px;
+    text-align: center;
+    color: #000;
+    line-height: 1.5;
+}
+
+#song_btn{
+    background-color: #DC3545;
+    border: 4px solid #DC3545;
+    color: #ffffff;
+    width: 450px;
+    height: 55px;
+    font-size: 25px;
+    border-radius: 10px;
+    font-weight: 550;
+    font-family: 'Open Sans', sans-serif;
+    cursor: default;
+}
+
+#btn_danger:hover{
+    background-color: #ffffff;
+    color: #DC3545;
+    border-color: #DC3545;
+    transition: 0.5s;
+}
+
+canvas{
+        border: 7px #000 solid;
+        border-radius: 15px;
+        box-shadow: 10px 10px 10px rgb(62, 52, 39);
+        background-color: rgba(0, 0, 0, 0);
+}
